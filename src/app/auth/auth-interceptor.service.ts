@@ -2,7 +2,6 @@ import { take, exhaustMap } from 'rxjs/operators';
 import { AuthService } from './auth.service';
 import { Injectable } from '@angular/core';
 import { HttpInterceptor, HttpRequest, HttpHandler, HttpParams } from '@angular/common/http';
-import { NgSelectOption } from '@angular/forms';
  
 @Injectable()
 export class AuthInterceptorService implements HttpInterceptor{
