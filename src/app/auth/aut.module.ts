@@ -7,6 +7,6 @@ import { NgModule } from '@angular/core';
 
 @NgModule({
     providers: [AuthComponent],
-    imports: [CommonModule, FormsModule, SharedModule, RouterModule.forChild([{ path: 'auth', component: AuthComponent } ])]
+    imports: [CommonModule, FormsModule, SharedModule, RouterModule.forChild([{ path: '', component: AuthComponent } ])]
 })
 export class AuthModule {}
